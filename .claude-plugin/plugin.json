@@ -18,5 +18,7 @@
     "business diagnostics"
   ],
   "skills": "./skills/",
-  "mcpServers": "./.mcp.json"
+  "mcpServers": "./.mcp.json",
+  "icon": "./assets/allyk-diagnostics-logo.png",
+  "privacyPolicyUrl": "https://allyk.app/privacy"
 }

@@ -20,7 +20,14 @@ You can revoke a connection from [ALLYK plugin connections](https://allyk.app/pl
 
 ## Distribution
 
-This repository is the source package for Claude directory review. Directory availability is subject to Anthropic review. For controlled testing, add this repository as a Claude Code marketplace and install `allyk-diagnostics` only after reviewing its files and trusting the source.
+This repository is both the plugin and its Claude Code marketplace. To install it in Claude Code after reviewing its files:
+
+```
+claude plugin marketplace add mayayaiinfra/allyk-diagnostics-claude-plugin
+claude plugin install allyk-diagnostics@allyk-diagnostics
+```
+
+Inside a Claude Code session you can use `/plugin marketplace add mayayaiinfra/allyk-diagnostics-claude-plugin` instead. Availability in Anthropic's plugin directory is subject to Anthropic review.
 
 ## License
 
